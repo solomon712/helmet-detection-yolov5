@@ -16,7 +16,9 @@ sh Copy code pip install django tensorflow opencv-python yolo5 Running the Proje
 
 cd helmetproject/internshipproject/internshipproject/DjangowithYolo/cnntest Start the Django Server: Run the following command to start the Django development server:
 
-python manage.py runserver Access the Interface:
+python manage.py runserver 
+
+Access the Interface:
 
 Click the server link provided in the terminal (usually http://127.0.0.1:8000/). Add /run_script to the URL to access the interface (e.g., http://127.0.0.1:8000/run_script). Upload and Process an Image:
 
